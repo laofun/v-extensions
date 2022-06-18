@@ -36,7 +36,7 @@ async function readAndConvert(dir, file) {
       uuid: jsonData.uuid,
       name: jsonData.name,
       version: jsonData.version,
-      url: '',
+      url: 'https://raw.githubusercontent.com/laofun/v-extensions/main/plugins/'+jsonData.uuid+'.plugin',
     }
     pluginsData.push(data);
     // console.log(jsonData.uuid,jsonData.name, jsonData.version);
