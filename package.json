@@ -1,0 +1,17 @@
+{
+  "name": "v-extensions",
+  "version": "1.0.0",
+  "description": "test  v-extensions",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "author": "laofun",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "2.6.7",
+    "p-limit": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}
